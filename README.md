@@ -4,7 +4,6 @@
 IP: 52.41.107.135  
 SSH-Port: 2200  
 Catalog-Application-Url: [http://52.41.107.135/](http://52.41.107.135/)
----
 
 ## Installed Software
 - Apache 2
@@ -22,7 +21,6 @@ Catalog-Application-Url: [http://52.41.107.135/](http://52.41.107.135/)
 - flask-bootstrap
 - github-flask
 - psycopg2
----
 
 ## Configurations
 
@@ -155,7 +153,6 @@ nano /etc/apache2/sites-enabled/000-default.conf
 # WSGIScriptAlias / /var/www/Catalog/catalog.wsgi
 service apache2 restart
 ```
----
 
 ## Third Party Resources
 [DigitalOcean - How To Install and Use PostgreSQL on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-14-04)  
