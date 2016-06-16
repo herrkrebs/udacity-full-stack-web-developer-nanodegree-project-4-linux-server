@@ -4,7 +4,7 @@
 IP: 52.41.20.50  
 SSH-Port: 2200  
 Grader Password: Loots44dueling41Bedrock  
-Catalog-Application-Url: [http://52.41.107.135/](http://52.41.107.135/)
+Catalog-Application-Url: [http://52.41.20.50/](http://52.41.20.50/)
 
 ## Installed Software
 - Apache 2
