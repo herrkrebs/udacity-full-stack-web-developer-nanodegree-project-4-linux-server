@@ -112,7 +112,7 @@ nano /var/www/Catalog/catalog.wsgi
 ##### Enter the following lines and save
 ```Python
 import sys
-sys.path.inser(0, '/var/www/Catalog')
+sys.path.insert(0, '/var/www/Catalog')
 from Catalog import app as application
 ```
 
@@ -131,7 +131,7 @@ nano /var/www/Catalog/Catalog/app/__init__.py
 
 #### Initialize Database
 ```
-cd /var/ww/Catalog/Catalog
+cd /var/www/Catalog/Catalog
 python
 ```
 #### Run the following code in Python
