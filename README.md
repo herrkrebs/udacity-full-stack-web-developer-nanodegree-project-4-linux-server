@@ -1,8 +1,9 @@
 # Linux Server Configuration
 
 ## Server informations
-IP: 52.41.107.135  
+IP: 52.41.20.50
 SSH-Port: 2200  
+Grader Password: Loots44dueling41Bedrock
 Catalog-Application-Url: [http://52.41.107.135/](http://52.41.107.135/)
 
 ## Installed Software
@@ -33,7 +34,7 @@ clip < ~/.ssh/udacity_grader.pub
 ##### On The Server
 ```
 adduser grader
-echo "grader ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/grader
+echo "grader ALL=(ALL) ALL" > /etc/sudoers.d/grader
 mkdir /home/grader/.ssh
 nano /home/grader/.ssh/authorized_keys
 # Paste public key form clipboard and save
