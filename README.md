@@ -38,7 +38,7 @@ echo "grader ALL=(ALL) ALL" > /etc/sudoers.d/grader
 mkdir /home/grader/.ssh
 nano /home/grader/.ssh/authorized_keys
 # Paste public key form clipboard and save
-chown -R /home/grader/.ssh
+chown grader:grader -R /home/grader/.ssh
 chmod 700 /home/grader/.ssh
 chmod 600 /home/grader./ssh/authorized_keys
 ```
